@@ -1,0 +1,67 @@
+﻿
+* {
+    color: #2F2F2F;
+}
+
+body {
+    background-color: #F6F6F6;
+}
+
+a {
+    color: #1F1F5F;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.aspNetDisabled {
+    color: #2F2F2F;
+    text-decoration: none;
+}
+
+div.clear {
+    clear: both;
+    line-height: 0;
+}
+
+div.main {
+    width: 780px;
+    border: 1px solid #AFAFAF;
+    padding: 5px;
+    background-color: #FEFEFE;
+    margin: 2px auto;
+}
+
+div.main > h1 {
+    text-align: center;
+    margin: 6px 0 2px;
+    font-size: 24px;
+}
+
+table.list {
+    border: 1px solid;
+    border-collapse: collapse;
+    width:100%;
+}
+table.list th,
+table.list td {
+    border: 1px solid;
+    padding: 1px 4px;    
+    white-space: nowrap;
+    overflow: hidden;
+}
+table.list td:hover {
+    background-color: #F3F3F3;
+}
+
+div.pager {
+    margin-top: 4px;
+    text-align: center;
+}
+
+p#list_extra {
+    margin: 0 4px;
+    text-align: right;
+}
