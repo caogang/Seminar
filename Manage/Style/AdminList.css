@@ -1,0 +1,28 @@
+
+#admin_list td:first-child {
+    text-align: right;
+    width: 40px;
+}
+#admin_list td:first-child + td {
+    text-align: left;
+}
+#admin_list td:first-child + td + td {
+    text-align: center;
+    width: 80px;
+}
+#admin_list td:first-child + td + td + td {
+    text-align: left;
+    width: 150px;
+}
+#admin_list td:first-child + td + td + td + td {
+    text-align: center;
+    width: 120px;
+}
+#admin_list td:first-child + td + td + td + td + td {
+    text-align: center;
+    width: 65px;
+}
+#admin_list td:first-child + td + td + td + td + td + td {
+    text-align: center;
+    width: 70px;
+}

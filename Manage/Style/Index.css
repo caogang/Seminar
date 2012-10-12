@@ -1,0 +1,21 @@
+
+#index {
+    padding: 0 40px;
+}
+#index li {
+    list-style-type: none;
+}
+#index > li {
+    padding: 20px;
+}
+#index > li > a {
+    font-weight: bold;
+}
+#index > li:first-child,
+#index > li:first-child + li + li,
+#index > li:first-child + li + li + li + li {
+    background-color: #F0F0F0;
+}
+#index > li > ul {
+    padding-left: 30px;
+}

@@ -1,0 +1,15 @@
+
+#admin_edit {
+    margin: 0 auto;
+}
+#admin_edit td:first-child {
+    text-align: right;
+}
+#ctMain_Button1 {
+    width: 120px;
+}
+#ctMain_TextBox1,
+#ctMain_TextBox2,
+#ctMain_TextBox3 {
+    width: 100%;
+}

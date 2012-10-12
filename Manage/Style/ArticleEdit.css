@@ -1,0 +1,18 @@
+
+#ctMain_ctType {
+    margin-left: 2px;
+    width: 110px;
+}
+#ctMain_ctTitle {
+    width: 650px;
+}
+#ctMain_ctSubmit {
+    width: 100px;
+    margin: 4px auto 0;
+    display: block;
+}
+
+#cke_70,
+#cke_71 {
+    display: none;
+}

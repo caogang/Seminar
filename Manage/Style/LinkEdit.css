@@ -1,0 +1,16 @@
+
+#link_edit {
+    margin: 0 auto;
+    width: 400px;
+}
+
+#ctMain_ctName,
+#ctMain_ctUrl {
+    width: 340px;
+}
+
+#ctMain_ctSubmit {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+}

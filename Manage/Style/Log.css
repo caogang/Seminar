@@ -1,0 +1,23 @@
+
+#log {
+    white-space: nowrap;
+}
+#log td:hover {
+    white-space: nowrap;
+    background-color: #F3F3F3;
+}
+#log td:first-child {
+    text-align: center;
+    width: 150px;
+}
+#log td:first-child + td {
+    text-align: left;
+}
+#log td:first-child + td + td {
+    text-align: center;
+    width: 150px;
+}
+#log td:first-child + td + td + td {
+    text-align: left;
+    width: 80px;
+}
