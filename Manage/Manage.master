@@ -31,24 +31,6 @@
                     <li><a href='<%= "LinkEdit.aspx".ResolveUrl() %>'>添加友情链接</a></li>
                 </ul>
             </li>
-            <li><a href='<%= "AdminList.aspx".ResolveUrl() %>'>管理员</a>
-                <ul class="nav first">
-                    <li><a href='<%= "AdminList.aspx".ResolveUrl() %>'>管理员列表</a></li>
-                    <li><a href='<%= "AdminEdit.aspx".ResolveUrl() %>'>添加管理员</a></li>
-                </ul>
-            </li>
-            <li><a href='<%= "Log.aspx".ResolveUrl() %>'>日志</a>
-                <ul class="nav first">
-                    <li><a href='<%= "Log.aspx".ResolveUrl() %>'>日志列表</a></li>
-                </ul>
-            </li>
-            <li><a href='<%= "HelpAbout.aspx".ResolveUrl() %>'>帮助</a>
-                <ul class="nav first">
-                    <li><a href='<%= "HelpTutorial.aspx".ResolveUrl() %>'>使用教程</a></li>
-                    <li><a href='<%= "HelpFaq.aspx".ResolveUrl() %>'>常见问题</a></li>
-                    <li><a href='<%= "HelpAbout.aspx".ResolveUrl() %>'>关于</a></li>
-                </ul>
-            </li>
             <li class="right"><a href='<%= "Index.aspx".ResolveUrl() %>'><%= Session["admin_name"].ToString() %></a>
                 <ul class="nav first">
                      <li><a href='<%= "Logout.aspx".ResolveUrl() %>'>退出登录</a></li>

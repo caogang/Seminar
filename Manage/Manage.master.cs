@@ -9,6 +9,9 @@ public partial class Manage_Manage : System.Web.UI.MasterPage
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        Session["admin_name"] = "admin";
+        Session["admin_id"] = 1;
+
         DataHelper.Debug();
 
         // 避免系统设置影响 Datetime 格式
@@ -25,6 +28,6 @@ public partial class Manage_Manage : System.Web.UI.MasterPage
             PageHelper.ShowResultPage("严重异常，无法连接到数据库");
         }
 
-        Page.Title += " - 西藏职业技术学院党委组织宣传部网站管理系统";
+        Page.Title += " - 校研究会管理系统";
     }
 }

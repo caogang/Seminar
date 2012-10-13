@@ -54,7 +54,7 @@ public static class SqlHelper
         try
         {
             ExceptionMessage = "";
-            string connStr = ConfigurationManager.ConnectionStrings["Tibet"].ConnectionString;
+            string connStr = ConfigurationManager.ConnectionStrings["SqlConnStr"].ConnectionString;
             conn = new SqlConnection(connStr);
             conn.Open();
             Connectable = true;
@@ -110,6 +110,7 @@ public static class SqlHelper
         {
             using (SqlDataAdapter da = new SqlDataAdapter(sqlExp, conn))
             {
+                conn.Open();
                 da.Fill(dt);
             }
         }

@@ -99,7 +99,7 @@ public static class PageHelper
         HttpContext.Current.Session["Result"] = result;
         if (HttpContext.Current.Request.Url.AbsolutePath.Contains("/Manage/"))
         {
-            Redirect("~/Manage/Result.aspx");
+            //Redirect("~/Manage/Index.aspx");
         }
         else
         {

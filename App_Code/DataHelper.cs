@@ -20,7 +20,7 @@ public static class DataHelper
         return BitConverter.ToString(
             new System.Security.Cryptography.SHA1CryptoServiceProvider().ComputeHash(
                 Encoding.Default.GetBytes(
-                    "Tibet_" + password
+                    "Seminar_" + password
                 )
             )
         ).Replace("-", "");
