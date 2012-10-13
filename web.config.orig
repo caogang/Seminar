@@ -1,0 +1,53 @@
+﻿<?xml version="1.0"?>
+<<<<<<< HEAD
+=======
+
+>>>>>>> Seminar/master
+<!--
+  有关如何配置 ASP.NET 应用程序的详细信息，请访问
+  http://go.microsoft.com/fwlink/?LinkId=169433
+  -->
+<<<<<<< HEAD
+<configuration>
+    <system.web>
+        <compilation debug="true" targetFramework="4.0"/>
+        <globalization requestEncoding="utf-8" responseEncoding="utf-8" culture="zh-CN" uiCulture="zh-CN"/>
+        <customErrors mode="On">
+            <error statusCode="404" redirect="~/Error/404" />
+        </customErrors>
+    </system.web>
+    <connectionStrings>
+      <clear />
+      <add name="SqlConnStr"
+             
+             connectionString="
+                Data Source=localhost;
+                Initial Catalog=Seminar;
+                User ID=sa;
+                Password=sa" />
+    </connectionStrings>
+    <system.webServer>
+        <defaultDocument>
+            <files>
+                <clear />
+                <add value="" />
+            </files>
+        </defaultDocument>
+    </system.webServer>
+</configuration>
+=======
+
+<configuration>
+
+    <system.web>
+        <compilation debug="true" targetFramework="4.0" />
+    </system.web>
+      <connectionStrings>
+        <add name="SqlConnStr"
+                connectionString="
+                Data Source=localhost;
+                Initial Catalog=Seminar;User ID=sa;Password=c19931030" />
+      </connectionStrings>
+
+</configuration>
+>>>>>>> Seminar/master
