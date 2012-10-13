@@ -10,7 +10,7 @@ public partial class Manage_RenamePwd : System.Web.UI.Page
     string userid;
     protected void Page_Load(object sender, EventArgs e)
     {
-       userid = Session["user"].ToString();
+       userid = Session["admin_id"].ToString();
     }
     protected void reload()
     {
@@ -38,7 +38,7 @@ public partial class Manage_RenamePwd : System.Web.UI.Page
                 /*PageHelper.ShowAlert("修改成功！");
                 reload();
                 PageHelper.ShowResultPage("修改成功！", "~/View/Default.aspx");*/
-                Response.Write("<script language='javascript'>alert('修改成功！');location='../View/Default.aspx';</script>");
+                Response.Write("<script language='javascript'>alert('修改成功！');location='Index.aspx';</script>");
             }
             else
             {

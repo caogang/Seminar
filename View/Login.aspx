@@ -10,7 +10,7 @@
     <form id="form1" runat="server">
     <div>
     
-        <asp:Login ID="Login1" runat="server" DestinationPageUrl="~/Manage/AdminEditor.aspx" 
+        <asp:Login ID="Login1" runat="server" DestinationPageUrl="~/Manage/Index.aspx" 
             DisplayRememberMe="False" FailureText="您的登录不成功！请重试！" 
             onauthenticate="Login1_Authenticate" PasswordLabelText="密码：" 
             PasswordRequiredErrorMessage="必须填写密码！" RememberMeText="" 

@@ -16,12 +16,13 @@ public partial class View_Default : System.Web.UI.Page
     {
         String username = Login1.UserName;
         String pwd = DataHelper.PasswordEncrypt(Login1.Password);
+        string t = DataHelper.PasswordEncrypt("admin");
         string sql="SELECT *  FROM [Seminar].[dbo].[User] where [UserName]='"+username+"' and [PassWord]='"+pwd+"'";
         object user = SqlHelper.ExecuteScalar(sql);
         if (user != null)
         {
             e.Authenticated = true;
-            Session["user"] = user;
+            Session["admin_id"] = user;
         }
         else
         {
