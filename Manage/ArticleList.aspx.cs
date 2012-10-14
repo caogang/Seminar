@@ -141,7 +141,7 @@ public partial class Manage_ArticleList : System.Web.UI.Page
         LinkButton lnk = (LinkButton)sender;
         int rowIndex = ((RepeaterItem)lnk.NamingContainer).ItemIndex;//获取点击的行号
         string id = ((Label)Repeater1.Items[rowIndex].FindControl("label1")).Text;//获得Label的值
-        int n = SqlHelper.ExecuteNonQuery("UPDATE [Seminar].[dbo].[Article] SET [Top] = (Top+1)%2 WHERE id=" + id);
+        int n = SqlHelper.ExecuteNonQuery("UPDATE [Seminar].[dbo].[Article] SET [Top] = ([Top]+1)%2 WHERE id=" + id);
         if (n > 0)
         {
             ds = SqlHelper.ExecuteAdapter("SELECT * FROM [Seminar].[dbo].[Article]");
